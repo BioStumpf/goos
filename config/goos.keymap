@@ -15,7 +15,7 @@
         compatible = "zmk,conditional-layers";
 
         Tri {
-            if-layers = <3 3>;
+            if-layers = <2 3>;
             then-layer = <4>;
         };
     };
@@ -107,10 +107,10 @@
 
         Symbol {
             bindings = <
-&none                      &kp CARET           &kp DOLLAR               &kp AT                    &none                          &kp NON_US_BACKSLASH  &kp POUND                    &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                &none
-&hrm LEFT_GUI EXCLAMATION  &hrm LEFT_ALT PLUS  &hrm LEFT_CONTROL MINUS  &hrm LEFT_SHIFT ASTERISK  &kp PERCENT                    &kp PIPE              &hrm RIGHT_SHIFT UNDERSCORE  &hrm LEFT_CONTROL LEFT_PARENTHESIS  &hrm LEFT_ALT RIGHT_PARENTHESIS  &hrm LEFT_GUI AMPERSAND
-&none                      &kp GRAVE           &kp SINGLE_QUOTE         &kp DOUBLE_QUOTES         &none                          &kp TILDE             &kp EQUAL                    &kp LEFT_BRACE                      &kp RIGHT_BRACE                  &none
-                                                                        &kp ESC                   &mo 3        &kp TAB    &none  &kp BACKSPACE         &none
+&none                      &kp CARET           &kp DOLLAR               &kp AT                    &none                        &kp NON_US_BACKSLASH  &kp POUND                    &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                &none
+&hrm LEFT_GUI EXCLAMATION  &hrm LEFT_ALT PLUS  &hrm LEFT_CONTROL MINUS  &hrm LEFT_SHIFT ASTERISK  &kp PERCENT                  &kp PIPE              &hrm RIGHT_SHIFT UNDERSCORE  &hrm LEFT_CONTROL LEFT_PARENTHESIS  &hrm LEFT_ALT RIGHT_PARENTHESIS  &hrm LEFT_GUI AMPERSAND
+&none                      &kp GRAVE           &kp SINGLE_QUOTE         &kp DOUBLE_QUOTES         &none                        &kp TILDE             &kp EQUAL                    &kp LEFT_BRACE                      &kp RIGHT_BRACE                  &none
+                                                                        &none                     &none        &none    &none  &none                 &none
             >;
 
             label = "symbol_layer";
@@ -118,10 +118,10 @@
 
         Numbers_Navigation {
             bindings = <
-&none             &kp NUMBER_9      &kp NUMBER_8          &kp NUMBER_7        &kp MINUS                      &kp C_BRI_UP  &kp C_MUTE             &kp C_VOLUME_DOWN     &kp C_VOLUME_UP      &none
-&hrm LEFT_GUI N0  &hrm LEFT_ALT N3  &hrm LEFT_CONTROL N2  &hrm LEFT_SHIFT N1  &kp PLUS                       &kp LEFT      &hrm RIGHT_SHIFT DOWN  &hrm LEFT_CONTROL UP  &hrm LEFT_ALT RIGHT  &kp LEFT_GUI
-&none             &kp NUMBER_6      &kp NUMBER_5          &kp NUMBER_4        &kp STAR                       &kp C_BRI_DN  &kp C_PREV             &kp C_PP              &kp C_NEXT           &none
-                                                          &none               &none      &none    &kp ENTER  &none         &kp BSPC
+&none             &kp NUMBER_9      &kp NUMBER_8          &kp NUMBER_7        &kp MINUS                  &kp C_BRI_UP  &kp C_MUTE             &kp C_VOLUME_DOWN     &kp C_VOLUME_UP      &none
+&hrm LEFT_GUI N0  &hrm LEFT_ALT N3  &hrm LEFT_CONTROL N2  &hrm LEFT_SHIFT N1  &kp PLUS                   &kp LEFT      &hrm RIGHT_SHIFT DOWN  &hrm LEFT_CONTROL UP  &hrm LEFT_ALT RIGHT  &kp LEFT_GUI
+&none             &kp NUMBER_6      &kp NUMBER_5          &kp NUMBER_4        &kp STAR                   &kp C_BRI_DN  &kp C_PREV             &kp C_PP              &kp C_NEXT           &none
+                                                          &none               &none      &none    &none  &none         &none
             >;
 
             label = "numb_nav_layer";
