@@ -53,7 +53,7 @@
         };
 
         toggle_layout {
-            bindings = <&tog 0>;
+            bindings = <&tog 1>;
             key-positions = <0 20>;
         };
 
