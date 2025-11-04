@@ -118,9 +118,9 @@
 
         Symbol {
             bindings = <
-&none                      &kp CARET           &kp DOLLAR               &kp AT                    &none                        &kp NON_US_BACKSLASH  &kp POUND                    &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                &none
-&hrm LEFT_GUI EXCLAMATION  &hrm LEFT_ALT PLUS  &hrm LEFT_CONTROL MINUS  &hrm LEFT_SHIFT ASTERISK  &kp PERCENT                  &kp PIPE              &hrm RIGHT_SHIFT UNDERSCORE  &hrm LEFT_CONTROL LEFT_PARENTHESIS  &hrm LEFT_ALT RIGHT_PARENTHESIS  &hrm LEFT_GUI AMPERSAND
-&none                      &kp GRAVE           &kp SINGLE_QUOTE         &kp DOUBLE_QUOTES         &none                        &kp TILDE             &kp EQUAL                    &kp LEFT_BRACE                      &kp RIGHT_BRACE                  &none
+&none                      &kp CARET            &kp DOLLAR              &kp AT                    &none                        &kp NON_US_BACKSLASH  &kp POUND                    &kp LEFT_BRACKET                    &kp RIGHT_BRACKET                &none
+&hrm LEFT_GUI EXCLAMATION  &hrm LEFT_ALT MINUS  &hrm LEFT_CONTROL PLUS  &hrm LEFT_SHIFT ASTERISK  &kp PERCENT                  &kp PIPE              &hrm RIGHT_SHIFT UNDERSCORE  &hrm LEFT_CONTROL LEFT_PARENTHESIS  &hrm LEFT_ALT RIGHT_PARENTHESIS  &hrm LEFT_GUI AMPERSAND
+&none                      &kp GRAVE            &kp SINGLE_QUOTE        &kp DOUBLE_QUOTES         &none                        &kp TILDE             &kp EQUAL                    &kp LEFT_BRACE                      &kp RIGHT_BRACE                  &none
                                                                         &none                     &none        &none    &none  &none                 &none
             >;
 
